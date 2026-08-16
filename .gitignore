@@ -1,0 +1,15 @@
+# Secrets and per-installation files — NEVER commit these
+geni_config.json
+geni_tokens.json
+geni_tokens_legacy.json
+geni_tokens_curator_backup.json
+geni_auth_code.txt
+geni_code_store.txt
+
+# Runtime state and output
+geni_export.lock
+geni_export.pid
+*.log
+exports/
+__pycache__/
+*.pyc
